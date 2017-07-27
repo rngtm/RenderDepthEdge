@@ -1,4 +1,5 @@
-﻿Shader "Hidden/RenderDepthEdge" {
+﻿// Thanks to http://qiita.com/bokkuri_orz/items/08cbaeae6a34fed7f903
+Shader "Hidden/RenderDepthEdge" {
     Properties {
         [HideInInspector] _MainTex ("Depth Texture", 2D) = "white" {}
         _EdgeColor ("Edge Color", Color) = (1,1,1,1)
